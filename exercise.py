@@ -2,7 +2,9 @@ import re
 import csv
 import sys
 
-# ASSUMPTION: Adults over 18 does not include those who are 18, but 19 and above.
+# ASSUMPTIONS: 
+#   Adults over 18 does not include those who are 18, but 19 and above.
+#   Tacoma, FL is a real place.
 
 def format_address(address, city, state):
     """Return readable, user-friendly version of full address"""
